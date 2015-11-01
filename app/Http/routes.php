@@ -11,10 +11,10 @@
 |
 */
 
-/*Route::get('/', function () {
+Route::get('/', function () {
     return view('welcome');
 });
-*/
+
 
 Route::get('users', function()
 {
@@ -37,9 +37,9 @@ Route::get('index',function(){
 	return View('index');
 });
 
-Route::get('/', function(){
+/*Route::get('/', function(){
 	return view('index');
-});
+});*/
 
 Route::get('AboutUs', function(){ return view('AboutUs'); });
 	
