@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>toMyDear</title>
-<link rel="stylesheet" href="{{ asset('css/StyleSheet1.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ URL::asset('css/StyleSheet1.css') }}" type="text/css">
 <link rel="icon" href="{{ asset('Images/favicon.ico') }}" type="image/x-icon">
 <script type="text/javascript" src="{{ asset('jss/effects.js') }}"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js">
 </script>
-<link rel="stylesheet" type="text/css" href="{{ asset('jss/css/style.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('jss/css/style.css') }}" />
 	<!-- End WOWSlider.com HEAD section -->
    
 <script>
