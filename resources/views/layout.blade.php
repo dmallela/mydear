@@ -8,8 +8,8 @@
 <script type="text/javascript" src="<?php echo asset('jss/effects.js') ?>"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js">
 </script>
-<link rel="stylesheet" type="text/css" href="<?php echo asset('jss/style.css') ?>" />
-	<script type="text/javascript" src="<? php echo asset('jss/jquery.js') ?>"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo asset('jss/css/style.css') ?>" />
+	<script type="text/javascript" src="<? php echo asset('jss/jss/jquery.js') ?>"></script>
 	<!-- End WOWSlider.com HEAD section -->
    
 <script>
