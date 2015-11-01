@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>toMyDear</title>
-<link rel="stylesheet" href="<?php echo asset('css/StyleSheet1.css')?>" type="text/css">
-<link rel="icon" href="<?php echo asset('Images/favicon.ico') ?>" type="image/x-icon">
-<script type="text/javascript" src="<?php echo asset('jss/effects.js') ?>"></script>
+<link rel="stylesheet" href="{{ asset('css/StyleSheet1.css') }}" type="text/css">
+<link rel="icon" href="{{ asset('Images/favicon.ico') }}" type="image/x-icon">
+<script type="text/javascript" src="{{ asset('jss/effects.js') }}"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js">
 </script>
-<link rel="stylesheet" type="text/css" href="<?php echo asset('jss/css/style.css') ?>" />
+<link rel="stylesheet" type="text/css" href="{{ asset('jss/css/style.css') }}" />
 <!--	<script type="text/javascript" src="<? php echo asset('jss/jss/jquery.js') ?>"></script> -->
 	<!-- End WOWSlider.com HEAD section -->
    
@@ -51,7 +51,7 @@ if(!isset($_SESSION['sess_user_id']) || (trim($_SESSION['sess_user_id']) == ''))
 }
 else{
 ?>
-<li><a class="last" href="PHP\logout.php">Logout</a></li><?php
+<li><a class="last" href="{{ URL::to('/') }}">Logout</a></li><?php
 echo "<li><h4>Welcome ".$_SESSION['sess_username']."</h4></li>";
 }
 ?>
