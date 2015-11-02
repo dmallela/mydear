@@ -62,13 +62,13 @@ echo "<li><h4>Welcome ".$_SESSION['sess_username']."</h4></li>";
 <div id="main-page">
 <div class="left-menu">
 <ul>
-		<li><a href="PHP\Gifts.php#Birthday">BirthdayGifts</a></li>
-		<li><a href="PHP\Gifts.php#Wedding">Wedding gifts</a></li>
-                <li><a href="PHP\Gifts.php#CakesandFlowers">Cakes and Flowers</a></li>
-		<li><a href="PHP\Gifts.php#valeintanceday">valentine day Gifts</a></li>
-		<li><a href="PHP\Gifts.php#christmas">Christams Gifts</a></li>		
-		<li><a href="PHP\Gifts.php#Toys">Toys</a></li>
-		<li><a href="PHP\Gifts.php#anniversary">Anniversary Gifts</a></li>
+		<li><a href="{{ URL::to('Gifts') }}">BirthdayGifts</a></li>
+		<li><a href="{{ URL::to('Gifts') }}">Wedding gifts</a></li>
+                <li><a href="{{ URL::to('Gifts') }}">Cakes and Flowers</a></li>
+		<li><a href="{{ URL::to('Gifts') }}">valentine day Gifts</a></li>
+		<li><a href="{{ URL::to('Gifts') }}">Christams Gifts</a></li>		
+		<li><a href="{{ URL::to('Gifts') }}">Toys</a></li>
+		<li><a href="{{ URL::to('Gifts') }}">Anniversary Gifts</a></li>
 	</ul>
 </div>
 
