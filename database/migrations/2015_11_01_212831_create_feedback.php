@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUser extends Migration
+class CreateFeedback extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,12 @@ class CreateUser extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('feedback', function (Blueprint $table) {
+		$table->string('name');
+		$table->string('emailid');
+		$table->string('testinomial');
+		$table->boolean('status')->default(1);
+        });
     }
 
     /**
@@ -22,6 +27,9 @@ class CreateUser extends Migration
      */
     public function down()
     {
-        //
+	if(Schema::hasTable('feedback')){
+	 Schema::drop('feedback');
+	}
+
     }
 }
