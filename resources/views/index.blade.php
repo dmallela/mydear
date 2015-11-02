@@ -27,8 +27,8 @@
 <span class="wsl"><a href="Route::to('http://wowslider.com')">Carousel HTML5</a> by WOWSlider.com v4.8</span>
 	<div class="ws_shadow"></div>
 	</div>
-        <script type="text/javascript" src="<? php echo asset('jss/engine1/wowslider.js') ?>"></script>
-        <script type="text/javascript" src="<? php echo asset('jss/engine1/script.js') ?>"></script>
+        <script type="text/javascript" src="{{ asset('jss/engine1/wowslider.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('jss/engine1/script.js') }}"></script>
 
 	<!-- End WOWSlider.com BODY section -->
 
