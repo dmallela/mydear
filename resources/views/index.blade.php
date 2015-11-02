@@ -40,7 +40,7 @@ Choose the occasion of the gifts below.
 	<table class="category">
 		<tr>
 			<td>
-			<a href="PHP\Gifts.php#Birthday">
+			<a href="{{ URL::to('Gifts') }}">
 			<img src="Images\BirthdayImage.jpg" alt="Birthday Gifts" height="100" width="100" ></img>
 			<br/>
 			Birthday Gifts
@@ -48,7 +48,7 @@ Choose the occasion of the gifts below.
 			</td>
 
 			<td>i
-			<a href="PHP\Gifts.php#Wedding">
+			<a href="{{ URL::to('Gifts') }}">
 			<img src="Images\wedding gifts.jpg" alt="Wedding Gifts" height="100" width="100" /><br/>
 			Wedding Gifts
 			</a>
@@ -65,21 +65,21 @@ Choose the occasion of the gifts below.
 
 		<tr>
 			<td>
-			<a href="PHP\Gifts.php#valeintanceday">
+			<a href="{{ URL::to('Gifts') }}">
 			<img src="Images\Valeintanceday.jpg" alt="valeintanceday Gifts" height="100" width="100" /><br/>
 			Valeintanceday Gifts
 			</a>
 			</td>
 
 			<td>
-			<a href="PHP\Gifts.php#christmas">
+			<a href="{{ URL::to('Gifts') }}">
 			<img src="Images\christmas.jpg" alt="Christmas Gifts" height="100" width="100" /><br/>
 			Christmas Gifts
 			</a>
 			</td>
 			
 			<td>
-			<a href="PHP\Gifts.php#Toys">
+			<a href="{{ URL::to('Gifts') }}">
 			<img src="Images\toys.jpg" alt="Toys" height="100" width="100" /><br/>
 			Toys
 			</a>
