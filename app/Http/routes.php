@@ -60,3 +60,7 @@ Route::get('Gifts', function(){ return view('Gifts'); });
 
 Route::get('LoginPage', function(){ return view('Loginpage');});
 
+
+
+Route::get('Testinomials', 'TestinomialsController@index');
+
