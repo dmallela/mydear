@@ -1,145 +1,145 @@
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Birthday Gifts','Red cute teddy bear',20,'Red cute teddy bear',20,'..\\Images\\birthday\\gift1.jpg');
+values('Birthday Gifts','Red cute teddy bear',20,'Red cute teddy bear',20,'Images\\birthday\\gift1.jpg');
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Birthday Gifts','Brown teddy bear',20,'Brown teddy bear',20,'..\\Images\\birthday\\gift2.jpg');
+values('Birthday Gifts','Brown teddy bear',20,'Brown teddy bear',20,'Images\\birthday\\gift2.jpg');
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Birthday Gifts','White mens T-shirt',20,'White mens T-shirt',20,'..\\Images\\birthday\\gift3.jpg');
+values('Birthday Gifts','White mens T-shirt',20,'White mens T-shirt',20,'Images\\birthday\\gift3.jpg');
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Birthday Gifts','watch',20,'watch',20,'..\\Images\\birthday\\gift4.jpg');
+values('Birthday Gifts','watch',20,'watch',20,'Images\\birthday\\gift4.jpg');
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Birthday Gifts','A birthday greeting card',20,'watch',20,'..\\Images\\birthday\\gift5.jpg');
-
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Wedding Gifts','Family tree photo frame',20,'Family tree photo frame',20,'..\\Images\\wedding\\gift1.jpg');
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Wedding Gifts','Glass timer',20,'Glass timer',20,'..\\Images\\wedding\\gift2.jpg');
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Wedding Gifts','Stone carved greeting',20,'Stone carved greeting',20,'..\\Images\\wedding\\gift3.jpg');
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Wedding Gifts','White pearl bridal belt',20,'White pearl bridal belt',20,'..\\Images\\wedding\\gift 4 Beaded Bridal Belt.jpg');
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Wedding Gifts','Best wishes with flowers',20,'Best wishes with flowers',20,'..\\Images\\wedding\\gift5.jpg');
-
-
+values('Birthday Gifts','A birthday greeting card',20,'watch',20,'Images\\birthday\\gift5.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('CakesandFlowers','vanila creamy cake',20,'vanila creamy cake',20,'..\\Images\\Cakesandflowers\\gift1.jpg');
-
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('CakesandFlowers','milky white cake',20,'milky white cake',20,'..\\Images\\Cakesandflowers\\gift2.jpg');
-
+values('Wedding Gifts','Family tree photo frame',20,'Family tree photo frame',20,'Images\\wedding\\gift1.jpg');
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('CakesandFlowers','cake',20,'cake',20,'..\\Images\\Cakesandflowers\\gift3.jpg');
-
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('CakesandFlowers','cake',20,'cake',20,'..\\Images\\Cakesandflowers\\gift4.jpg');
-
+values('Wedding Gifts','Glass timer',20,'Glass timer',20,'Images\\wedding\\gift2.jpg');
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('CakesandFlowers','flowers',20,'flowers',20,'..\\Images\Cakesandflowers\\gift5.jpg');
+values('Wedding Gifts','Stone carved greeting',20,'Stone carved greeting',20,'Images\\wedding\\gift3.jpg');
 
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('Wedding Gifts','White pearl bridal belt',20,'White pearl bridal belt',20,'Images\\wedding\\gift 4 Beaded Bridal Belt.jpg');
 
-
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('Wedding Gifts','Best wishes with flowers',20,'Best wishes with flowers',20,'Images\\wedding\\gift5.jpg');
 
 
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('valeintanceday','valeintanceday greeting',20,'valeintanceday greeting',20,'..\\Images\\Valeintanceday\\gift1.jpg');
+values('CakesandFlowers','vanila creamy cake',20,'vanila creamy cake',20,'Images\\Cakesandflowers\\gift1.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('valeintanceday','Photo frame',20,'Photo frame',20,'..\\Images\\Valeintanceday\\gift2.jpg');
+values('CakesandFlowers','milky white cake',20,'milky white cake',20,'Images\\Cakesandflowers\\gift2.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('valeintanceday','Coffee cup',20,'Coffee cup',20,'..\\Images\\Valeintanceday\\gift3.jpg');
+values('CakesandFlowers','cake',20,'cake',20,'Images\\Cakesandflowers\\gift3.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('valeintanceday','men\'s accessories',20,'men\'s accessories',20,'..\\Images\\Valeintanceday\\gift4.jpg');
+values('CakesandFlowers','cake',20,'cake',20,'Images\\Cakesandflowers\\gift4.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('valeintanceday','White teddy Bear',20,'White teddy Bear',20,'..\\Images\\Valeintanceday\\gift5.jpg');
+values('CakesandFlowers','flowers',20,'flowers',20,'Images\Cakesandflowers\\gift5.jpg');
+
+
 
 
 
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Christams Gifts','Greeting card',20,'Greeting card',20,'..\\Images\\christmas\\gift1.jpg');
+values('valeintanceday','valeintanceday greeting',20,'valeintanceday greeting',20,'Images\\Valeintanceday\\gift1.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Christams Gifts','christmas cake',20,'christmas cake',20,'..\\Images\\christmas\\gift2.jpg');
+values('valeintanceday','Photo frame',20,'Photo frame',20,'Images\\Valeintanceday\\gift2.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Christams Gifts','greeting',20,'greeting',20,'..\\Images\\christmas\\gift3.jpg');
+values('valeintanceday','Coffee cup',20,'Coffee cup',20,'Images\\Valeintanceday\\gift3.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Christams Gifts','Decoration items',20,'Decoration items',20,'..\\Images\\christmas\\gift4.jpg');
+values('valeintanceday','men\'s accessories',20,'men\'s accessories',20,'Images\\Valeintanceday\\gift4.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Christams Gifts','christmas toy',20,'christmas toy',20,'..\\Images\\christmas\\gift5.jpg');
+values('valeintanceday','White teddy Bear',20,'White teddy Bear',20,'Images\\Valeintanceday\\gift5.jpg');
 
-
-
-
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Toys','Red car',20,'Red car',20,'..\\Images\\Toys\\gift1.jpg');
-
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Toys','Robo',20,'Robo',20,'..\\Images\\Toys\\gift2.jpg');
-
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Toys','Green insect',20,'Green insect',20,'..\\Images\\Toys\\gift3.jpg');
-
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Toys','Toys',20,'Toys',20,'..\\Images\\Toys\\gift4.jpg');
-
-
-insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('Toys','christmas toy',20,'Lion',20,'..\\Images\\Toys\\gift5.jpg');
 
 
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('anniversary','Couple',20,'Couple',20,'..\\Images\\Anniversary\\gift1.jpg');
+values('Christams Gifts','Greeting card',20,'Greeting card',20,'Images\\christmas\\gift1.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('anniversary','coffee cup',20,'coffee cup',20,'..\\Images\\Anniversary\\gift2.jpg');
+values('Christams Gifts','christmas cake',20,'christmas cake',20,'Images\\christmas\\gift2.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('anniversary','white stone bracelet',20,'white stone bracelet',20,'..\\Images\\Anniversary\\gift3.png');
+values('Christams Gifts','greeting',20,'greeting',20,'Images\\christmas\\gift3.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('anniversary','couple rings',20,'couple rings',20,'..\\Images\\Anniversary\\gift4.jpg');
+values('Christams Gifts','Decoration items',20,'Decoration items',20,'Images\\christmas\\gift4.jpg');
 
 
 insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
-values('anniversary','25 years anniversary',20,'25 years anniversary',20,'..\\Images\\Anniversary\\gift5.jpg');
+values('Christams Gifts','christmas toy',20,'christmas toy',20,'Images\\christmas\\gift5.jpg');
+
+
+
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('Toys','Red car',20,'Red car',20,'Images\\Toys\\gift1.jpg');
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('Toys','Robo',20,'Robo',20,'Images\\Toys\\gift2.jpg');
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('Toys','Green insect',20,'Green insect',20,'Images\\Toys\\gift3.jpg');
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('Toys','Toys',20,'Toys',20,'Images\\Toys\\gift4.jpg');
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('Toys','christmas toy',20,'Lion',20,'Images\\Toys\\gift5.jpg');
+
+
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('anniversary','Couple',20,'Couple',20,'Images\\Anniversary\\gift1.jpg');
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('anniversary','coffee cup',20,'coffee cup',20,'Images\\Anniversary\\gift2.jpg');
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('anniversary','white stone bracelet',20,'white stone bracelet',20,'Images\\Anniversary\\gift3.png');
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('anniversary','couple rings',20,'couple rings',20,'Images\\Anniversary\\gift4.jpg');
+
+
+insert into gifts(category,giftname,giftcost,description,quantity,giftlocation)
+values('anniversary','25 years anniversary',20,'25 years anniversary',20,'Images\\Anniversary\\gift5.jpg');
