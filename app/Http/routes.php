@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-
+/*
 Route::get('users', function()
 {
     return 'Users!';
@@ -25,7 +25,7 @@ Route::get('users', function()
 {
     return View::make('users');
 });
-
+*/
 /*Route::get('users', 'UserController@getIndex');*/
 
 //Route::get('showProfile','UserController@showProfile');
