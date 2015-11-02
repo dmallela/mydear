@@ -63,4 +63,4 @@ Route::get('LoginPage', function(){ return view('Loginpage');});
 
 
 Route::get('Testinomials', 'TestinomialsController@index');
-
+Route::get('Gifts','GiftsController@index');
