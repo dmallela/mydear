@@ -20,7 +20,6 @@
         <div>
         <p><b>{{ $gift->description }} </b></p>
         <p>{{  $gift->giftcost }} </p>
-	<p> {{ $gift->giftlocation }} </p>
 	<img src="{{ asset( $gift->giftlocation ) }}" />
         </div>
         @endforeach
