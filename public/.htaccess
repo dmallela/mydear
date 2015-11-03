@@ -9,10 +9,14 @@
 #RewriteCond %{HTTPS} !=on
 #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-#	RewriteBase /home/folder/public_folder
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond /public/%{REQUEST_URI} -d
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ /public/$1/
 
-    RewriteCond %{HTTPS} !^on ^http://infinite-waters-2709.herokuapp.com$ [NC]
-    RewriteRule ^(.*)$ https://infinite-waters-2709.herokuapp.com/$1 [R=301,L]
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/public/
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
