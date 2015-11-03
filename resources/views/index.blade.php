@@ -55,7 +55,7 @@ Choose the occasion of the gifts below.
 			</td>
 			
 			<td>
-			<a href="PHP\Gifts.php#CakesandFlowers">
+			<a href="{{ URL::to('Gifts') }}">
 			<img src="Images\cakesandflowers.jpg" alt="Cakes and Flowers" height="100" width="100" /><br/>
 			Cakes and Flowers
 			</a>
