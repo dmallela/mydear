@@ -14,3 +14,14 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+# Force SSL
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+server {
+    listen       80;
+    server_name  infinite-waters-2709.herokuapp.com;
+    return       301 https://http://infinite-waters-2709.herokuapp.com/$request_uri;
+}
