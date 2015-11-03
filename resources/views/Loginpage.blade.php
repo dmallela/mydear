@@ -142,4 +142,8 @@ echo "you are successfully registered";
 </div>
 </div>
 
+
+
+<p><b> Sorry ! we ran out of stock now, So we closed registration and login and we will keep you informed about stock arrival </p> </b>
+
 @stop
