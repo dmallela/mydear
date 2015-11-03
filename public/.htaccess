@@ -6,9 +6,13 @@
     RewriteEngine On
 
 # Force SSL
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+#	RewriteBase /home/folder/public_folder
+
+    RewriteCond %{HTTPS} !^on ^http://infinite-waters-2709.herokuapp.com$ [NC]
+    RewriteRule ^(.*)$ https://infinite-waters-2709.herokuapp.com/$1 [R=301,L]
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
